@@ -1,0 +1,86 @@
+{
+  "fields": [
+    "evidence_id",
+    "when",
+    "provider",
+    "nature",
+    "amount",
+    "activity_keys",
+    "reversal_for"
+  ],
+  "key": "evidence_id",
+  "rows": [
+    {
+      "evidence_id": "E01",
+      "when": "2026-05-12",
+      "provider": "A",
+      "nature": "staff",
+      "amount": "10000",
+      "activity_keys": "V01,V02",
+      "reversal_for": ""
+    },
+    {
+      "evidence_id": "E02",
+      "when": "2026-05-12",
+      "provider": "B",
+      "nature": "travel",
+      "amount": "3000",
+      "activity_keys": "V01,V02",
+      "reversal_for": ""
+    },
+    {
+      "evidence_id": "E03",
+      "when": "2026-05-19",
+      "provider": "A",
+      "nature": "travel",
+      "amount": "2000",
+      "activity_keys": "V03",
+      "reversal_for": ""
+    },
+    {
+      "evidence_id": "E04",
+      "when": "2026-06-04",
+      "provider": "A",
+      "nature": "loaned_equipment",
+      "amount": "1600",
+      "activity_keys": "V04,V05",
+      "reversal_for": ""
+    },
+    {
+      "evidence_id": "E05",
+      "when": "2026-06-16",
+      "provider": "B",
+      "nature": "staff",
+      "amount": "12000",
+      "activity_keys": "V06,V07",
+      "reversal_for": ""
+    },
+    {
+      "evidence_id": "E06",
+      "when": "2026-06-20",
+      "provider": "A",
+      "nature": "staff",
+      "amount": "8000",
+      "activity_keys": "V08",
+      "reversal_for": ""
+    },
+    {
+      "evidence_id": "E07",
+      "when": "2026-06-22",
+      "provider": "A",
+      "nature": "staff",
+      "amount": "6000",
+      "activity_keys": "",
+      "reversal_for": ""
+    },
+    {
+      "evidence_id": "E08",
+      "when": "2026-06-29",
+      "provider": "A",
+      "nature": "staff",
+      "amount": "-2500",
+      "activity_keys": "V01,V02",
+      "reversal_for": "E01"
+    }
+  ]
+}

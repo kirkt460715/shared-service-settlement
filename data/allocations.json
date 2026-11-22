@@ -1,0 +1,50 @@
+{
+  "fields": [
+    "id",
+    "fund",
+    "cost",
+    "claim",
+    "transaction",
+    "amount",
+    "at"
+  ],
+  "key": "id",
+  "rows": [
+    {
+      "id": "A01",
+      "fund": "F-N",
+      "cost": "E01",
+      "claim": "C01",
+      "transaction": "commit",
+      "amount": "6600",
+      "at": "2026-05-27"
+    },
+    {
+      "id": "A02",
+      "fund": "F-N",
+      "cost": "E01",
+      "claim": "C01",
+      "transaction": "paid",
+      "amount": "5000",
+      "at": "2026-06-10"
+    },
+    {
+      "id": "A03",
+      "fund": "F-N",
+      "cost": "E01",
+      "claim": "C01",
+      "transaction": "reversed",
+      "amount": "1000",
+      "at": "2026-07-01"
+    },
+    {
+      "id": "A04",
+      "fund": "F-N",
+      "cost": "E05",
+      "claim": "C02",
+      "transaction": "commit",
+      "amount": "3200",
+      "at": "2026-06-26"
+    }
+  ]
+}

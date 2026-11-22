@@ -1,0 +1,61 @@
+{
+  "fields": [
+    "id",
+    "dept",
+    "receipt",
+    "invoice_at",
+    "amount",
+    "state"
+  ],
+  "key": "id",
+  "rows": [
+    {
+      "id": "I01",
+      "dept": "north",
+      "receipt": "E01",
+      "invoice_at": "2026-05-25",
+      "amount": "10000",
+      "state": "accepted"
+    },
+    {
+      "id": "I02",
+      "dept": "west",
+      "receipt": "E01",
+      "invoice_at": "2026-06-06",
+      "amount": "10000",
+      "state": "accepted"
+    },
+    {
+      "id": "I03",
+      "dept": "west",
+      "receipt": "E02",
+      "invoice_at": "2026-06-07",
+      "amount": "3000",
+      "state": "accepted"
+    },
+    {
+      "id": "I04",
+      "dept": "east",
+      "receipt": "E06",
+      "invoice_at": "2026-06-22",
+      "amount": "8000",
+      "state": "accepted"
+    },
+    {
+      "id": "I05",
+      "dept": "west",
+      "receipt": "E05",
+      "invoice_at": "2026-06-24",
+      "amount": "12000",
+      "state": "accepted"
+    },
+    {
+      "id": "I06",
+      "dept": "north",
+      "receipt": "E08",
+      "invoice_at": "2026-06-30",
+      "amount": "-2500",
+      "state": "accepted"
+    }
+  ]
+}

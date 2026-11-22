@@ -1,0 +1,32 @@
+{
+  "fields": [
+    "id",
+    "start",
+    "group",
+    "bath_num",
+    "escort_num",
+    "denominator",
+    "remainder_to"
+  ],
+  "key": "id",
+  "rows": [
+    {
+      "id": "S1",
+      "start": "2026-01-01",
+      "group": "combo",
+      "bath_num": "2",
+      "escort_num": "1",
+      "denominator": "3",
+      "remainder_to": "bath"
+    },
+    {
+      "id": "S2",
+      "start": "2026-06-15",
+      "group": "combo",
+      "bath_num": "1",
+      "escort_num": "1",
+      "denominator": "2",
+      "remainder_to": "escort"
+    }
+  ]
+}

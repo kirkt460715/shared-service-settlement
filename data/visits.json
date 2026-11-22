@@ -1,0 +1,95 @@
+{
+  "fields": [
+    "id",
+    "when",
+    "provider",
+    "program",
+    "group",
+    "cohort",
+    "status",
+    "units"
+  ],
+  "key": "id",
+  "rows": [
+    {
+      "id": "V01",
+      "when": "2026-05-12",
+      "provider": "A",
+      "program": "bath",
+      "group": "combo",
+      "cohort": "support",
+      "status": "done",
+      "units": "1"
+    },
+    {
+      "id": "V02",
+      "when": "2026-05-12",
+      "provider": "B",
+      "program": "escort",
+      "group": "combo",
+      "cohort": "support",
+      "status": "done",
+      "units": "1"
+    },
+    {
+      "id": "V03",
+      "when": "2026-05-19",
+      "provider": "A",
+      "program": "bath",
+      "group": "single",
+      "cohort": "support",
+      "status": "cancel",
+      "units": "0"
+    },
+    {
+      "id": "V04",
+      "when": "2026-06-04",
+      "provider": "B",
+      "program": "escort",
+      "group": "combo",
+      "cohort": "support",
+      "status": "done",
+      "units": "1"
+    },
+    {
+      "id": "V05",
+      "when": "2026-06-04",
+      "provider": "A",
+      "program": "bath",
+      "group": "combo",
+      "cohort": "support",
+      "status": "done",
+      "units": "1"
+    },
+    {
+      "id": "V06",
+      "when": "2026-06-16",
+      "provider": "A",
+      "program": "bath",
+      "group": "combo",
+      "cohort": "support",
+      "status": "done",
+      "units": "1"
+    },
+    {
+      "id": "V07",
+      "when": "2026-06-16",
+      "provider": "B",
+      "program": "escort",
+      "group": "combo",
+      "cohort": "support",
+      "status": "done",
+      "units": "1"
+    },
+    {
+      "id": "V08",
+      "when": "2026-06-20",
+      "provider": "A",
+      "program": "bath",
+      "group": "single",
+      "cohort": "general",
+      "status": "done",
+      "units": "1"
+    }
+  ]
+}

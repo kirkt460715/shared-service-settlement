@@ -1,0 +1,41 @@
+{
+  "fields": [
+    "fund",
+    "pool",
+    "pool_cap",
+    "program",
+    "nature",
+    "active_from",
+    "active_until"
+  ],
+  "key": "fund",
+  "rows": [
+    {
+      "fund": "F-N",
+      "pool": "joint-grant",
+      "pool_cap": "10000",
+      "program": "bath,escort",
+      "nature": "staff,travel",
+      "active_from": "2026-01-01",
+      "active_until": "2026-12-31"
+    },
+    {
+      "fund": "F-W",
+      "pool": "joint-grant",
+      "pool_cap": "10000",
+      "program": "escort",
+      "nature": "staff",
+      "active_from": "2026-01-01",
+      "active_until": "2026-12-31"
+    },
+    {
+      "fund": "F-A",
+      "pool": "local-budget",
+      "pool_cap": "4000",
+      "program": "bath",
+      "nature": "travel",
+      "active_from": "2026-01-01",
+      "active_until": "2026-12-31"
+    }
+  ]
+}

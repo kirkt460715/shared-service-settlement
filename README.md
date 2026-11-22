@@ -10,3 +10,12 @@
 python3 inspect_records.py
 python3 -m unittest discover -s tests -v
 ```
+
+`reconcile.py` 在同一交换约定上完成月结核算与拨付核对：凭证去重、按发生期选版的整数分摊、冲销跟随原路由、可下钻到原凭证的单位成本、共同池额度占用与签发判断、待分摊与历史时点复核。
+
+```sh
+python3 reconcile.py                 # 全期文本报告
+python3 reconcile.py --month 2026-05 # 单月成本口径收口
+python3 reconcile.py --as-of 2026-06-10   # 按当时事实复核可签发状态
+python3 reconcile.py --json          # 机器可读的对账结果
+```

@@ -37,3 +37,12 @@
 资助额度在同池共用。资格为项目与成本类型的组合。按到账分配额以共享项目上限为准。
 
 主键为 `fund`，字段为 `fund`、`pool`、`pool_cap`、`program`、`nature`、`active_from`、`active_until`。
+
+## 核算口径（reconcile.py）
+
+- 金额为整数分。`shares` 按业务发生日取适用版本：`start` 晚于发生日的补签版本不适用，发生期不被重新定义；月中改版只对生效日后的业务有效。
+- 组合凭证按权重拆到涉及服务，先整除再把尾差一次性加给 `remainder_to`，拆分恒等；单服务凭证不拆。冲销凭证（`reversal_for` 非空）跟随原凭证的活动路由与发生期协议，金额为负。
+- `activity_keys` 为空的凭证不进任何服务口径，列为待分摊；取消活动不产生完成单位，其费用保留为可解释成本。
+- 同一 `receipt` 跨部门提交只证明同一项成本，受理一次，其余标记重复，不形成第二笔付款。
+- 资助资格按 `program`、`nature` 与有效期判定；`loaned_equipment` 等实物支持计入经济成本但不属于现金资助。同 `pool` 的资助共用 `pool_cap`，同一 claim 按 max(commit, 实付-冲回) 占额，`reversed` 实际登记后才释放实付额度。
+- 超限成本保留在真实用途科目下并标记 `cap_blocked`，不挪到其他科目；无受理凭证标记 `missing_document`。
